@@ -1,9 +1,30 @@
+body {
+  background: rgb(250, 222, 1);
+}
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
 }
-
+h1 {
+  text-align: center;
+}
+body {
+  margin-top: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 800px;
+}
+.main {
+  position: relative;
+  overflow: hidden;
+  border: solid;
+  padding: 10px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .label {
   font-weight: bold;
 }
@@ -16,4 +37,13 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+.devoured {
+  float: right;
+}
+.not-devoured {
+  float: left;
+}
+.new-burger {
+  margin: auto;
 }
