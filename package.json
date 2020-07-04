@@ -1,19 +1,25 @@
 {
-  "name": "mvc_design",
+  "name": "13burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "UCLA Full Stack Boot Camp Week 13 Homework",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnikim/13Burger.git"
+  },
+  "author": "Jonathan Kim",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
+  "bugs": {
+    "url": "https://github.com/jonnikim/13Burger/issues"
   },
-  "devDependencies": {
-    "handlebars-helper-css": "^0.1.0"
+  "homepage": "https://github.com/jonnikim/13Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
   }
 }

@@ -7,6 +7,6 @@ CREATE TABLE burgers
 (
 	id int NOT NULL AUTO_INCREMENT,
 	name varchar(255) NOT NULL,
-	isEaten BOOLEAN DEFAULT false,
+	isDevoured BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );
