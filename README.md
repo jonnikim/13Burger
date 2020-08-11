@@ -20,7 +20,7 @@
   * [Questions](#Questions)
 
 ## Deployed App
-Heroku: [ORM, Express-Handlebars]( https://scenic-sequoia-26844.herokuapp.com/)
+Heroku: ["Eat da' Burger"]( https://scenic-sequoia-26844.herokuapp.com/)
 
 ## Installation
 ```
